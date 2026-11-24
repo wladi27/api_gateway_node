@@ -1,0 +1,23 @@
+{
+  "name": "api-gateway-biblioteca",
+  "version": "1.0.0",
+  "description": "API Gateway y servicio de biblioteca con Express y SQLite",
+  "type": "module",
+  "main": "src/app.js",
+  "scripts": {
+    "dev": "node --watch src/app.js",
+    "start": "node src/app.js"
+  },
+  "keywords": [
+    "express",
+    "sqlite",
+    "api-gateway",
+    "biblioteca",
+    "nodejs"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
